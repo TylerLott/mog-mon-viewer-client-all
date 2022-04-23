@@ -37,6 +37,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://ludwigmonday.gg/",
   "browserslist": {
     "production": [
       ">0.2%",
