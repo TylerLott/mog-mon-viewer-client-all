@@ -79,3 +79,28 @@ export const UIButton = styled.button``
 
 export const UITeamsContainer = styled.div``
 export const UITeamsContainerName = styled.h2``
+export const UILoginButton = styled.a`
+  cursor: pointer;
+  height: 2em;
+  padding-top: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 60%;
+  color: ${(props) => (props.track ? COLORS.BUTTON_GREEN : COLORS.BUTTON_RED)};
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1em;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid
+    ${(props) => (props.track ? COLORS.BUTTON_GREEN : COLORS.BUTTON_RED)};
+  font-size: 1.8em;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+`
