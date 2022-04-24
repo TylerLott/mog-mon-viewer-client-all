@@ -26,7 +26,7 @@ import Countdown from "react-countdown"
 import * as COLORS from "../../styles/colors"
 
 const AD_LINK = "localhost"
-let WS_HOST = "https://ludwigmonday.gg"
+let WS_HOST = "https://ludwigmonday.gg/"
 let WS_PATH = "/api/viewer"
 if (process.env.NODE_ENV !== "production") {
   WS_HOST = "localhost:7000"
