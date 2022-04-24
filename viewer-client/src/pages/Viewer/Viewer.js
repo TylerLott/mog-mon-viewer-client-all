@@ -27,7 +27,7 @@ import * as COLORS from "../../styles/colors"
 
 const AD_LINK = "localhost"
 let WS_HOST = "https://ludwigmonday.gg"
-let WS_PATH = "/api/viewer"
+let WS_PATH = "/api/viewer/socket.io"
 if (process.env.NODE_ENV !== "production") {
   WS_HOST = "localhost:7000"
   WS_PATH = ""
