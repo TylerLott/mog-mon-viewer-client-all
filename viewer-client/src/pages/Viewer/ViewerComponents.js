@@ -7,7 +7,7 @@ export const ViewerContainer = styled.div`
 
 export const TeamListContainer = styled.div`
   width: 30%;
-  height: 60vh;
+  min-height: 60vh;
   margin-top: 20px;
   margin-right: 20px;
   padding: 25px;

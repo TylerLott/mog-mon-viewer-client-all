@@ -171,7 +171,6 @@ const Viewer = () => {
                   width: "10vw",
                   height: "23vh",
                   margin: "10px 0 10px 0",
-                  borderRadius: "2vw",
                 }}
               >
                 <div
@@ -184,7 +183,6 @@ const Viewer = () => {
                           (counts[currentTeam.name] / settings.thresh) * 100
                         : 0
                     }%`,
-                    borderRadius: "2vw 2vw 0 0",
                   }}
                 ></div>
               </div>
@@ -217,7 +215,7 @@ const Viewer = () => {
                     Knocks
                   </PlayerKills>
                   <PlayerPlacement style={{ fontSize: "1.8vw" }}>
-                    placement
+                    Placement
                   </PlayerPlacement>
                   <PlayerTotal style={{ fontSize: "1.8vw" }}>Total</PlayerTotal>
                 </PlayersContainer>
