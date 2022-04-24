@@ -33,6 +33,10 @@ if (process.env.NODE_ENV !== "production") {
   WS_PATH = ""
 }
 
+let socket = socketIOClient(WS_HOST, {
+  path: WS_PATH,
+})
+
 const Viewer = () => {
   const [ws, setWs] = useState(null)
   const [currentTeam, setCurrentTeam] = useState({
@@ -98,9 +102,6 @@ const Viewer = () => {
     // set activeTeam to first team returned
     //
     //
-    let socket = socketIOClient(WS_HOST, {
-      path: WS_PATH,
-    })
     setWs(socket)
     console.log("started", socket)
 
