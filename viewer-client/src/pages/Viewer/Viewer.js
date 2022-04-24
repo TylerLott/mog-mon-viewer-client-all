@@ -238,7 +238,7 @@ const Viewer = () => {
             </MainContainerMid>
           </div>
           <MainContainerContent>
-            <MainContainerMid>
+            <MainContainerMid style={{ marginTop: "20px" }}>
               <a href={AD_LINK} onClick={handleAdClick}>
                 <img alt="get-that-bread" />
               </a>
