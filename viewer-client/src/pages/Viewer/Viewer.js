@@ -102,6 +102,7 @@ const Viewer = () => {
       path: WS_PATH,
     })
     setWs(socket)
+    console.log("started", socket)
 
     socket.on("add-teams", (teams) => {
       if (currentTeam.name === "loading...") {
