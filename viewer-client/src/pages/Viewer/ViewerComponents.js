@@ -119,22 +119,35 @@ export const PlayerName = styled.h3`
   grid-column: 1;
   margin: 0;
   font-size: 1.5vw;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 `
 export const PlayerKills = styled.h3`
   grid-column: 2;
   margin: 0;
   font-size: 1.5vw;
   justify-self: center;
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 `
 export const PlayerPlacement = styled.h3`
   grid-column: 3;
   margin: 0;
   font-size: 1.5vw;
   justify-self: center;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 `
 export const PlayerTotal = styled.h3`
   grid-column: 4;
   margin: 0;
   font-size: 1.5vw;
   justify-self: center;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 `
