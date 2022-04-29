@@ -171,6 +171,7 @@ const Viewer = () => {
                   width: "10vw",
                   height: "23vh",
                   margin: "10px 0 10px 0",
+                  maxWidth: "250px",
                 }}
               >
                 <div
